@@ -1,0 +1,185 @@
+.Trackpage {
+  width: 100%;
+  height: 100%;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  color: #fff;
+  background: linear-gradient(to bottom, #323232 0%, #3f3f3f 40%, #1c1c1c 150%),
+    linear-gradient(
+      to top,
+      rgba(66, 66, 66, 0.774) 0%,
+      rgba(0, 0, 0, 0.25) 200%
+    );
+  background-blend-mode: multiply;
+  z-index: 30;
+
+  i {
+    font-size: 1.2rem;
+    color: #aaaaaa9d;
+  }
+
+  .Trackpage__nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+
+    .Trackpage__nav_options {
+      font-size: 8px;
+    }
+  }
+
+  .Trackpage__img img {
+    width: 100%;
+    height: 330px;
+  }
+
+  .vid {
+    width: 100%;
+    height: 180%;
+    object-fit: cover;
+    position: absolute;
+    top: -250px;
+    left: -0px;
+    z-index: 0;
+    opacity: 0.4;
+  }
+
+  .Trackpage__body_container {
+    z-index: 99;
+
+    .Trackpage__details {
+      width: 100%;
+      height: max-content;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-transform: capitalize;
+      line-height: 13px;
+
+      .artist {
+        opacity: 0.7;
+        font-size: 0.8rem;
+      }
+    }
+
+    .Trackpage__slider {
+      margin-top: 15px;
+
+      .Trackpage__dur {
+        font-size: 11px;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    .Trackpage__controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+
+      i {
+        font-size: 50px;
+        cursor: pointer;
+        color: #fff;
+      }
+
+      .playpause__wrap {
+        width: 60px;
+        height: 60px;
+        padding: 8px;
+        padding-left: 12px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: #fff;
+      }
+
+      .playpause__control.fas {
+        color: #171717;
+        padding: 20px;
+        font-size: 1.3rem;
+        text-align: center;
+      }
+    }
+
+    .Trackpage__misc {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      margin-top: 25px;
+      color: rgb(115, 219, 115);
+
+      i {
+        margin-right: 10px;
+        color: rgb(115, 219, 115);
+        font-size: 14px;
+      }
+
+      .Trackpage__misc_btooth {
+        display: flex;
+        justify-content: center;
+
+        span {
+          font-size: 0.5rem;
+        }
+      }
+    }
+  }
+
+  .fas.fa-random,
+  .fas.fa-redo {
+    opacity: 0.5;
+  }
+
+  .rc-slider-track {
+    background-color: #fff;
+  }
+
+  .rc-slider-handle {
+    width: 12px;
+    height: 12px;
+    margin: -4px auto;
+  }
+
+  .rc-slider-rail {
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .rc-slider-handle,
+  .rc-slider-handle:active,
+  .rc-slider-handle:focus,
+  .rc-slider-handle:hover {
+    outline: none;
+    border: 2px solid #fff;
+    box-shadow: none;
+  }
+
+  .fas.fa-heart {
+    color: rgb(115, 219, 115);
+  }
+
+  .fas.fa-random {
+    font-size: 20px;
+  }
+
+  .fas.fa-redo {
+    font-size: 20px;
+  }
+
+  .fas.fa-step-backward {
+    font-size: 30px;
+  }
+
+  .fas.fa-step-forward {
+    font-size: 30px;
+  }
+}

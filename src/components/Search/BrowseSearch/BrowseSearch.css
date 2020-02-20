@@ -1,0 +1,78 @@
+.srh {
+  background: #171717;
+  height: 100%;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+  padding-bottom: 85px;
+}
+
+h2 {
+  align-self: flex-start;
+  margin-top: 40px;
+}
+
+.srh-btn {
+  width: 100%;
+  margin-top: 16px;
+  height: max-content;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  padding: 13px 15px;
+  background: #fff;
+  color: #171717;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.srh-btn i {
+  margin-right: 12px;
+  margin-top: 2px;
+}
+
+.srh-genres {
+  width: 100%;
+}
+
+.srh-title {
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin: 25px 0 15px 0;
+  justify-self: flex-start;
+}
+
+.srh-blk {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.srh-genre {
+  width: 48%;
+  height: 100px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.srh-genre img {
+  width: 70px;
+  transform: rotate(30deg);
+  position: absolute;
+  right: -18px;
+  bottom: 3px;
+}

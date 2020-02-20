@@ -1,0 +1,14 @@
+.a-artist {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.a-artist .p-icon {
+    width: 75px;
+    height: 75px;
+    margin-right: 15px;
+    border-radius: 50%;
+}

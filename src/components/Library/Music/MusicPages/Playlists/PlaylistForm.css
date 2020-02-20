@@ -1,0 +1,58 @@
+.p-form {
+    width: 240px;
+    height: 140px;
+    margin-top: 14px;
+    background: rgb(163, 163, 163);
+    border-radius: 10px;
+    position: absolute;
+    left: 18%;
+    z-index: 99;
+}
+
+.p-form-main {
+    padding: 12px;
+}
+
+.p-form-main h3 {
+    white-space: nowrap;
+    margin: 5px 0 15px 0;
+    color: #000;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.p-form-btns {
+    overflow: hidden;
+    width: 100%;
+}
+
+.p-form-btns button {
+    width: 50%;
+    height: 43px;
+    color: rgb(3, 127, 228);
+    font-size: 1rem;
+    font-weight: 400;
+    background: transparent;
+    border: none;
+}
+
+.p-form-btns button:nth-child(1) {
+    border-right: 1px solid rgba(0, 0, 0, 0.19);
+    border-bottom-left-radius: 10px;
+}
+
+.p-form-btns button:nth-child(2) {
+    border-bottom-right-radius: 10px;
+}
+
+.p-form-btns button:hover {
+    background: rgb(151, 151, 151);
+}
+
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.19);
+}

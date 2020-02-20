@@ -1,0 +1,26 @@
+.track {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0;
+  text-transform: capitalize;
+  text-decoration: none;
+
+  h5 {
+    color: white;
+  }
+
+  h6 {
+    color: var(--muted);
+    line-height: 20px;
+  }
+
+  .opt {
+    position: absolute;
+    right: 0;
+    color: whitesmoke;
+    font-size: 8px;
+    letter-spacing: 1px;
+    padding-top: 8px;
+  }
+}

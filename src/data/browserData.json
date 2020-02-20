@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Hip-Hop",
+        "type": "music",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/b/b1/Lovemenow.jpg"
+    },
+    {
+        "title": "Pop",
+        "type": "music",
+        "cover": "https://live.staticflickr.com/4130/5173671688_7aec073ca4_z.jpg"
+    },
+    {
+        "title": "R&B",
+        "type": "music",
+        "cover": "https://sslg.ulximg.com/image/750x750/cover/1559967014_b8df4849bb15a686a2db37d52718d40d.jpg/e32937de4c327f7c6f99e7ec0690eccb/1559967014_b7b3a849a4a22af5c931a2f3a0fd52b3.jpg"
+    },
+    {
+        "title": "Rock",
+        "type": "music",
+        "cover": "http://exclaim.ca/images/jimmy-eat-world-surviving.jpg"
+    },
+    {
+        "title": "Reggaeton",
+        "type": "music",
+        "cover": "https://media.pitchfork.com/photos/5d1644fc82ada80008ddf311/1:1/w_320/badbunny_oasis.jpg"
+    },
+    {
+        "title": "Latin Pop",
+        "type": "music",
+        "cover": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/90/1c/72/901c7206-35d1-a8dc-fa70-e60fc512ba6a/source/1200x1200bb.jpg"
+    },
+    {
+        "title": "Podcasts",
+        "type": "browse",
+        "cover": "https://freight.cargo.site/t/original/i/49b5c8b83182e23ad86add9f8c515128ab45b6306b1d03a17ba18a0de0f15035/Album.jpg"
+    },
+    {
+        "title": "Made for you",
+        "type": "browse",
+        "cover": "https://freight.cargo.site/t/original/i/49b5c8b83182e23ad86add9f8c515128ab45b6306b1d03a17ba18a0de0f15035/Album.jpg"
+    },
+    {
+        "title": "Charts",
+        "type": "browse",
+        "cover": "https://freight.cargo.site/t/original/i/49b5c8b83182e23ad86add9f8c515128ab45b6306b1d03a17ba18a0de0f15035/Album.jpg"
+    },
+    {
+        "title": "Mood",
+        "type": "browse",
+        "cover": "https://freight.cargo.site/t/original/i/49b5c8b83182e23ad86add9f8c515128ab45b6306b1d03a17ba18a0de0f15035/Album.jpg"
+    },
+    {
+        "title": "Workout",
+        "type": "browse",
+        "cover": "https://freight.cargo.site/t/original/i/49b5c8b83182e23ad86add9f8c515128ab45b6306b1d03a17ba18a0de0f15035/Album.jpg"
+    },
+    {
+        "title": "Focus",
+        "type": "browse",
+        "cover": "https://freight.cargo.site/t/original/i/49b5c8b83182e23ad86add9f8c515128ab45b6306b1d03a17ba18a0de0f15035/Album.jpg"
+    }
+]
