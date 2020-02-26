@@ -19,7 +19,6 @@ const Block = props => (
 )
 
 export default class BrowseSearch extends Component {
-
     getData = type => {
         return Data.filter(d => d.type === type).map((d, i) => (
             <Block 

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-
-import Searchbar from '../../../../SearchBar/Searchbar';
-
+import Searchbar from '../../../Searchbar/Searchbar';
 import './PlaylistForm.css';
 
 const PlaylistCreator = props => (

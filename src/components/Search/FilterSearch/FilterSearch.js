@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-
-import Searchbar from '../../SearchBar/Searchbar';
+import { withRouter } from "react-router-dom";
+import Searchbar from '../../Searchbar/';
 import './FilterSearch.css';
 
-export default class FilterSearch extends Component {
+class FilterSearch extends Component {
     render() {
         return (
             <div className='f-srh'>
@@ -30,18 +30,4 @@ export default class FilterSearch extends Component {
     }
 }
 
-// const { 
-//     width, 
-//     height, 
-//     color, 
-//     background, 
-//     padding, 
-//     caretColor, 
-//     border,
-//     borderRadius, 
-//     name,
-//     value,
-//     placeholder, 
-//     isForm, 
-//     handleChange,
-// } = this.props;
+export default withRouter(FilterSearch);

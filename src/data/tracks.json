@@ -1,100 +1,115 @@
 [
   {
     "id": 0,
-    "title": "on the road (feat. Meek Mill & Lil Baby)",
-    "album": "hollywood's bleeding",
-    "artist": "post malone, meek mill, lil baby",
-    "cover": "https://consequenceofsound.net/wp-content/uploads/2018/07/travis-scott-astroworld-cover-art.png?w=807"
+    "title": "La Playa - Remix",
+    "album": "La Playa",
+    "artist": "Myke Towers, Maluma, Farruko",
+    "cover": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/b5/77/df/b577dfb3-7e60-36ce-3a2e-7f5fe2bc90f1/source/1200x1200bb.jpg",
+    "mp3": "https://alofokemusic.net/musica/wp-content/uploads/2020/01/Myke-Towers-ft-Farruko-Maluma-La-Playa-Remix.mp3",
+    "vpm": "https://res.cloudinary.com/dnrj5jpxf/video/upload/v1582522805/0.mov"
   },
   {
     "id": 1,
     "title": "no me conoce - remix",
     "album": "famouz",
-    "artist": "jhay cortez, j balvin, bad bunny",
-    "cover": "https://images.genius.com/f4364d3916934b8fc13274a54c5566fc.1000x1000x1.jpg"
+    "artist": "Jhay Cortez, J balvin, Bad Bunny",
+    "cover": "https://i.pinimg.com/736x/6a/70/27/6a7027042cdf37154f2d419fbbe5a4df.jpg",
+    "mp3": "http://alofokemusic.net/musica/wp-content/uploads/2019/05/Jhay-Cortez-ft-J-Balvin-Bad-Bunny-No-Me-Conoce.mp3",
+    "vpm": "https://res.cloudinary.com/dnrj5jpxf/video/upload/v1582522805/1.mov"
   },
   {
     "id": 2,
-    "title": "no guidence",
-    "album": "indigo",
-    "artist": "chris brown",
-    "cover": "https://consequenceofsound.net/wp-content/uploads/2018/07/travis-scott-astroworld-cover-art.png?w=807"
+    "title": "Do Not Disturb",
+    "album": "More Life",
+    "artist": "Drake",
+    "cover": "https://www.udiscovermusic.com/wp-content/uploads/2017/03/Drake-More-Life-album-cover-web-optimised-820.jpg",
+    "mp3": "https://download.musiccloud.bid/n/Drake-Do-Not-Disturb.mp3"
   },
   {
     "id": 3,
     "title": "london",
     "album": "do much fun",
-    "artist": "young thug",
-    "cover": "https://consequenceofsound.net/wp-content/uploads/2018/07/travis-scott-astroworld-cover-art.png?w=807"
+    "artist": "Young Thug",
+    "cover": "https://hiphop-n-more.com/wp-content/uploads/2019/05/young-thug-the-london-feat-j-cole-travis-scott.jpg",
+    "mp3": "https://illuminaija.com/wp-content/uploads/2019/05/Young-Thug-Ft-J-Cole-Travis-Scott-The-London.mp3?_=3",
+    "vpm": "https://res.cloudinary.com/dnrj5jpxf/video/upload/v1582522805/3.mov"
   },
   {
     "id": 4,
-    "title": "Miami",
-    "album": "love me now",
-    "artist": "Tory Lanez",
-    "cover": "https://consequenceofsound.net/wp-content/uploads/2018/07/travis-scott-astroworld-cover-art.png?w=807"
+    "title": "Ballin'(with Roddy Ricch)",
+    "album": "Perfect Ten",
+    "artist": "Mustard, Roddy Ricch",
+    "cover": "https://m.media-amazon.com/images/I/61um10tv4EL._SS500_.jpg",
+    "mp3": "https://s1.mp3fast.me//1000/10002283.mp3"
   },
   {
     "id": 5,
-    "title": "car sick",
-    "album": "drip season 3",
-    "artist": "gunna",
-    "cover": "https://consequenceofsound.net/wp-content/uploads/2018/07/travis-scott-astroworld-cover-art.png?w=807"
+    "title": "King Kong",
+    "album": "El Hombre",
+    "artist": "El Alfa",
+    "cover": "https://is2-ssl.mzstatic.com/image/thumb/Music128/v4/26/2a/d6/262ad6e3-7e70-b3c4-60e6-222198f349f7/source/1200x1200bb.jpg",
+    "mp3": "http://alofokemusic.net/musica/wp-content/uploads/2019/07/El-Alfa-King-Kong.mp3"
   },
   {
     "id": 6,
-    "title": "la cancion",
+    "title": "La Cancion",
     "album": "oasis",
-    "artist": "bad bunny",
-    "cover": "https://consequenceofsound.net/wp-content/uploads/2018/07/travis-scott-astroworld-cover-art.png?w=807"
+    "artist": "Bad Bunny",
+    "cover": "https://media.pitchfork.com/photos/5d1644fc82ada80008ddf311/1:1/w_600/badbunny_oasis.jpg",
+    "mp3": "https://s1.mp3fast.me//1002/10027447.mp3",
+    "vpm": "https://res.cloudinary.com/dnrj5jpxf/video/upload/v1582522805/6.mov"
   },
   {
     "id": 7,
-    "title": "car sick",
-    "album": "drip season 3",
-    "artist": "gunna",
-    "cover": "https://consequenceofsound.net/wp-content/uploads/2018/07/travis-scott-astroworld-cover-art.png?w=807"
+    "title": "Vete",
+    "album": "ASTROWORLD",
+    "artist": "Bad Bunny",
+    "cover": "https://m.media-amazon.com/images/I/81wxHVMf2jL._SS500_.jpg",
+    "mp3": "https://s1.mp3oreo.com//1001/10010151.mp3",
+    "vpm": "https://res.cloudinary.com/dnrj5jpxf/video/upload/v1582522805/7.mov"
   },
   {
     "id": 8,
-    "title": "la cancion",
-    "album": "oasis",
-    "artist": "bad bunny",
-    "cover": "https://consequenceofsound.net/wp-content/uploads/2018/07/travis-scott-astroworld-cover-art.png?w=807"
+    "title": "Adicto (with Anuel AA & Ozuna)",
+    "album": "ASTROWORLD",
+    "artist": "Tainy, Anuel AA, Ozuna",
+    "cover": "https://m.media-amazon.com/images/I/71Es6pqx6YL._SS500_.jpg",
+    "mp3": "https://s1.mp3fast.me//1031/10311027.mp3",
+    "vpm": "https://res.cloudinary.com/dnrj5jpxf/video/upload/v1582522805/8.mov"
   },
   {
     "id": 9,
-    "title": "car sick",
-    "album": "drip season 3",
-    "artist": "gunna",
-    "cover": "https://consequenceofsound.net/wp-content/uploads/2018/07/travis-scott-astroworld-cover-art.png?w=807"
+    "title": "Como Se Siente",
+    "album": "Meduza",
+    "artist": "Jhay Cortez",
+    "cover": "https://hiphopbeat.org/wp-content/uploads/2020/02/Jhay-Cortez-Medusa-Mp3.jpg",
+    "mp3": "https://reggaetonytrapestrenos.com/musica/Jhay%20Cortez%20%E2%80%93%20Como%20Se%20Siente.mp3?_=1",
+    "vpm": "https://res.cloudinary.com/dnrj5jpxf/video/upload/v1582522805/9.mov"
   },
   {
     "id": 10,
-    "title": "la cancion",
-    "album": "oasis",
-    "artist": "bad bunny",
-    "cover": "https://consequenceofsound.net/wp-content/uploads/2018/07/travis-scott-astroworld-cover-art.png?w=807"
+    "title": "QUE PRETENDES",
+    "album": "Oasis",
+    "artist": "J Balvin, Bad Bunny",
+    "cover": "https://media.pitchfork.com/photos/5d1644fc82ada80008ddf311/1:1/w_600/badbunny_oasis.jpg",
+    "mp3": "https://reggaetonytrapestrenos.com/musica/4%20-%20QUE%20PRETENDES.mp3?_=1",
+    "vpm": "https://res.cloudinary.com/dnrj5jpxf/video/upload/v1582522805/10.mov"
   },
   {
     "id": 11,
-    "title": "la cancion",
-    "album": "oasis",
-    "artist": "bad bunny",
-    "cover": "https://consequenceofsound.net/wp-content/uploads/2018/07/travis-scott-astroworld-cover-art.png?w=807"
+    "title": "Life is Good (feat. Drake)",
+    "album": "Life is Good",
+    "artist": "Future, Drake",
+    "cover": "https://media.pitchfork.com/photos/5e18f601a676f50008a7f479/1:1/w_500/Life-Is-Good.jpg",
+    "mp3": "https://net.naijokay.net/wp-content/uploads/2020/01/Future_Ft_Drake_-_Life_Is_Good.mp3",
+    "vpm": "https://res.cloudinary.com/dnrj5jpxf/video/upload/v1582522805/11.mov"
   },
   {
     "id": 12,
-    "title": "car sick",
-    "album": "drip season 3",
-    "artist": "gunna",
-    "cover": "https://consequenceofsound.net/wp-content/uploads/2018/07/travis-scott-astroworld-cover-art.png?w=807"
-  },
-  {
-    "id": 13,
-    "title": "la cancion",
-    "album": "oasis",
-    "artist": "bad bunny",
-    "cover": "https://consequenceofsound.net/wp-content/uploads/2018/07/travis-scott-astroworld-cover-art.png?w=807"
+    "title": "Callaita",
+    "album": "Callaita",
+    "artist": "Bad Bunny",
+    "cover": "https://m.media-amazon.com/images/I/91z4elDbREL._SS500_.jpg",
+    "mp3": "https://reggaetonytrapestrenos.com/musica/Bad%20Bunny%20-%20Callaita.mp3?_=1"
   }
 ]

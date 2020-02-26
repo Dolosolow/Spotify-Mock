@@ -1,0 +1,14 @@
+.vid {
+  width: 140%;
+  height: 135%;
+  object-fit: cover;
+  position: absolute;
+  top: -205px;
+  left: 0;
+  z-index: 0;
+  opacity: 1;
+}
+
+.darken {
+  opacity: 0.4;
+}

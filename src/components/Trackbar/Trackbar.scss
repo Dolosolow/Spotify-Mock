@@ -1,0 +1,87 @@
+.trackbar {
+  width: 100%;
+  height: 60px;
+  text-decoration: none;
+  position: fixed;
+  bottom: 80px;
+  display: flex;
+  flex-direction: column;
+
+  hr {
+    border-color: black;
+  }
+
+  .trackbar__container {
+    width: 100%;
+    height: 100%;
+    background: var(--pblack);
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 100%;
+    }
+
+    .trackbar__body {
+      padding-left: 12px;
+      color: var(--swhite);
+      line-height: 18px;
+
+      h5 {
+        font-size: 0.7rem;
+
+        span {
+          color: var(--muted);
+        }
+
+        .dot {
+          font-weight: 300;
+          font-size: 0.3rem;
+          color: var(--swhite);
+        }
+      }
+
+      h6 {
+        font-size: 0.65rem;
+        span {
+          padding-right: 5px;
+        }
+      }
+    }
+
+    .playpause {
+      color: #fff;
+      margin-left: auto;
+      padding: 16px;
+      font-size: large;
+    }
+  }
+
+  .rc-slider {
+    padding: 0;
+    height: 0;
+  }
+
+  .rc-slider-track {
+    height: 2.1px;
+    background-color: #fff;
+  }
+
+  .rc-slider-handle {
+    display: none;
+  }
+
+  .rc-slider-rail {
+    height: 2.1px;
+    background-color: #747474;
+  }
+
+  .rc-slider-handle,
+  .rc-slider-handle:active,
+  .rc-slider-handle:focus,
+  .rc-slider-handle:hover {
+    outline: none;
+    border: 2px solid #fff;
+    box-shadow: none;
+  }
+}

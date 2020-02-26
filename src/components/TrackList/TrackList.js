@@ -3,7 +3,7 @@ import { withRouter } from "react-router-dom";
 import Switch from 'react-switch';
 import uuid from 'uuid/v4';
  
-import Searchbar from '../SearchBar/Searchbar';
+import Searchbar from '../Searchbar/';
 import Track from './Track';
 import './TrackList.scss';
 
@@ -69,12 +69,11 @@ class TrackList extends Component {
         .map((track, i) => (
             <Track 
                 key={uuid()} 
-                id={track.id}
-                title={track.title}
-                album={track.album}
-                artist={track.artist}
+                track={track}
+                trackSelect={this.props.trackSelect}
                 downloaded={downloaded}
                 isDownloading={isDownloading}
+                curTrack={this.props.curTrack}
             />
         ));
         
@@ -89,6 +88,7 @@ class TrackList extends Component {
 
     render() {
         const { bgOpacity, titleOpacity, checked, isDownloading, downloaded } = this.state;
+        const { curTrack } = this.props;
         const tunes = this.optimizeTracklist();
         
         return (
@@ -96,7 +96,7 @@ class TrackList extends Component {
                 <div className='playlist-list-bg-ol' style={{ opacity: bgOpacity }}></div>
                 
                 <i onClick={() => this.props.history.goBack() } className="arc fas fa-chevron-left pl-12" style={{background: bgOpacity <= 0.1 ? '#171717' : ''}}><span style={{opacity: bgOpacity <= 0.1 ? '1' : '0'}}>Liked Songs</span></i>
-                <div ref='plsv' className='playlist-list-view' onScroll={this.handleScrollCheck}>
+                <div ref='plsv' className={`playlist-list-view ${Object.keys(curTrack).length > 0 ? 'ext' : ''}`} onScroll={this.handleScrollCheck}>
                 
                     <div className='sFilter p-12'>
                         <Searchbar 

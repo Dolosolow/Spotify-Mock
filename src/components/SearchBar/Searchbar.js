@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './Searchbar.scss';
 
-export default class SearchBar extends Component {
+export default class Searchbar extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -47,7 +47,7 @@ export default class SearchBar extends Component {
     }
 }
 
-SearchBar.propTypes = {
+Searchbar.propTypes = {
     color: PropTypes.string,
     background: PropTypes.string.isRequired,
     width: PropTypes.string.isRequired,

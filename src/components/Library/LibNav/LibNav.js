@@ -1,13 +1,11 @@
 import React from 'react';
-import { Route, Switch, NavLink, Redirect } from 'react-router-dom';
-
-import Podcasts from '../Podcasts/Podcasts';
-import Playlists from '../Music/MusicPages/Playlists/Playlists';
-import ArtistList from '../Music/MusicPages/Artists/ArtistList';
+import { Switch, NavLink, Redirect } from 'react-router-dom';
+import ROUTES, { renderRoutes } from "../../../routes";
 
 import './LibNav.css';
 
 const LibNav = ({tracks}) => {
+    const routeProps = [{ key: '/collection/playlists', props: { tracks } }];
     return (
         <div className='library-nav'>
             <nav className='pnav'>
@@ -56,10 +54,10 @@ const LibNav = ({tracks}) => {
                     <hr/>
                 </nav>
                     <Switch>
-                        <Route exact path='/collection/playlists' render={ props => <Playlists {...props} tracks={ tracks } /> } />
-                        <Route exact path='/collection/artists' render={ props => <ArtistList {...props} artists={ () => {} } /> } />
-                        <Route exact path='/collection/albums' render={ () => <h1 style={{ color: '#fff' }}>Hello Albums</h1> } />
-                        <Redirect from='/collection' to='/collection/playlists' />
+                        {
+                            renderRoutes(ROUTES, routeProps, '/collection')
+                        }
+                        <Redirect exact from='/collection' to='/collection/playlists' />
                     </Switch>
         </div>
     )

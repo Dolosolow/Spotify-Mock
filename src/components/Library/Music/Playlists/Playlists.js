@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import uuid from 'uuid/v4';
-
-import ListContainer from '../../ListContainer';
+import ListContainer from '../ListContainer';
 import PlaylistForm from './PlaylistForm';
 import Playlist from './Playlist';
+import uuid from 'uuid/v4';
 
 //handle each component list filter through parent component
 // pass to listcontainer which has fitler button linked with handleFilter method

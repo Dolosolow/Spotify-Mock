@@ -12,13 +12,13 @@ const Navbar = () => {
                 </NavLink>
             </div>
             <div className='icon'>
-                <NavLink exact to='/srh' className='nav-link' activeStyle={{opacity: '1'}}>
+                <NavLink to='/srh' className='nav-link' activeStyle={{opacity: '1'}}>
                     <i className="fas fa-search"></i>
                     Search
                 </NavLink>
             </div>
             <div className='icon'>
-                <NavLink exact to='/collection/playlists' className='nav-link' activeStyle={{opacity: '1'}}>
+                <NavLink to='/collection' className='nav-link' activeStyle={{opacity: '1'}}>
                     <i className="fas fa-book-open"></i>
                     Your Library
                 </NavLink>
