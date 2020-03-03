@@ -2,9 +2,9 @@
   --sdgreen: #36be66;
   --sgreen: #1ed760;
   --swhite: #fff;
-  --sblack: #171717;
+  --sblack: #121212;
   --pblack: #282828;
-  --muted: rgb(182, 182, 182);
+  --muted: rgb(175, 175, 175);
 }
 
 .App {
@@ -12,13 +12,13 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background: #171717;
+  background: var(--sblack);
   position: relative;
 
   .splash-screen {
     width: 100%;
     height: 100vh;
-    background: var(--pblack);
+    background: var(--sblack);
     display: flex;
     justify-content: center;
     align-items: center;

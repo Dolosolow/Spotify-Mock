@@ -20,7 +20,6 @@ class App extends Component {
       loaded: false,
       playlist: [],
       curTrack: {},
-      curAudio: null,
       curAudioData: { currentTime: '0:00', duration: '0:00', totalDuration: 0, trackCurrentTime: 0 }
     }
     this.audioRef = React.createRef();
@@ -70,14 +69,14 @@ class App extends Component {
     if(!this.state.loaded) {
       this.setState({ isLoading: true }, () => {
         setTimeout(() => {
-          this.setState({ isLoading: false, loaded: true, playlist: seed, curAudio: this.audioRef });
+          this.setState({ isLoading: false, loaded: true, playlist: seed });
         }, 3000);
       });
     }
   }
 
   render() {
-    const { isLoading, isPlaying, playlist, curAudio, curAudioData, curTrack } = this.state;
+    const { isLoading, isPlaying, playlist, curAudioData, curTrack } = this.state;
     if(isLoading) {
       return (
         <div className="App">
@@ -95,10 +94,11 @@ class App extends Component {
               <Trackpage 
                 {...props} 
                 vpm={true} 
-                audio={curAudio}
+                audio={this.audioRef}
                 audioData={curAudioData}
                 playlist={playlist} 
                 isPlaying={isPlaying} 
+                trackSelect={this.handleTrackSelect}
                 handlePlayPause={this.handlePlayPause}
               />
             )} />

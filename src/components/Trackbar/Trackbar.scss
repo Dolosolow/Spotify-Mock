@@ -3,7 +3,7 @@
   height: 60px;
   text-decoration: none;
   position: fixed;
-  bottom: 80px;
+  bottom: 84.5px;
   display: flex;
   flex-direction: column;
 
@@ -17,6 +17,7 @@
     background: var(--pblack);
     display: flex;
     align-items: center;
+    text-transform: capitalize;
 
     img {
       height: 100%;
@@ -28,7 +29,8 @@
       line-height: 18px;
 
       h5 {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
+        font-weight: 400;
 
         span {
           color: var(--muted);
@@ -43,6 +45,7 @@
 
       h6 {
         font-size: 0.65rem;
+        font-weight: 400;
         span {
           padding-right: 5px;
         }

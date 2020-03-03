@@ -8,12 +8,12 @@
 
 .navbar {
   width: 100%;
-  min-height: 80px;
+  min-height: 85px;
   position: fixed;
   bottom: 0;
   z-index: 100;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
   background: var(--pblack);
   font-size: 0.5rem;
@@ -22,7 +22,7 @@
 .nav-link {
   text-decoration: none;
   color: #fff;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   text-align: center;
   white-space: nowrap;
   padding: 3px;
@@ -34,7 +34,7 @@
 .icon {
   min-width: 33.3%;
   padding: 10px;
-  padding-top: 0;
+  padding-top: 14px;
   margin: 30px;
   display: flex;
   flex-direction: column;
@@ -44,6 +44,6 @@
 }
 
 .icon i {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 8px;
 }

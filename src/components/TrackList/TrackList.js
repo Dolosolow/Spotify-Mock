@@ -25,7 +25,7 @@ class TrackList extends Component {
         const initialBgVal = 0.5;
         const initialTitleVal = 3;
 
-        let scrollVal = this.refs.plsv.scrollTop;
+        let scrollVal = this.plsv.scrollTop || 0;
         let bgScroll = initialBgVal - scrollVal / 200;
         let titleScroll = initialTitleVal - scrollVal / 30;
         this.setState({ bgOpacity: bgScroll < 0 ? 0 : bgScroll, titleOpacity: titleScroll < 0 ? 0 : titleScroll});
@@ -90,13 +90,19 @@ class TrackList extends Component {
         const { bgOpacity, titleOpacity, checked, isDownloading, downloaded } = this.state;
         const { curTrack } = this.props;
         const tunes = this.optimizeTracklist();
+        const extPadding = Object.keys(curTrack).length > 0 ? 'ext' : '';
         
         return (
             <div className='playlist-list'>
                 <div className='playlist-list-bg-ol' style={{ opacity: bgOpacity }}></div>
                 
-                <i onClick={() => this.props.history.goBack() } className="arc fas fa-chevron-left pl-12" style={{background: bgOpacity <= 0.1 ? '#171717' : ''}}><span style={{opacity: bgOpacity <= 0.1 ? '1' : '0'}}>Liked Songs</span></i>
-                <div ref='plsv' className={`playlist-list-view ${Object.keys(curTrack).length > 0 ? 'ext' : ''}`} onScroll={this.handleScrollCheck}>
+                <i 
+                onClick={() => this.props.history.goBack() } 
+                className="arc fas fa-chevron-left pl-12" 
+                style={{background: bgOpacity <= 0.1 ? '#121212' : ''}}>
+                    <p style={{opacity: bgOpacity <= 0.1 ? '1' : '0'}}>Liked Songs</p>
+                </i>
+                <div ref={input => this.plsv = input} className={`playlist-list-view ${extPadding}`} onScroll={this.handleScrollCheck}>
                 
                     <div className='sFilter p-12'>
                         <Searchbar 

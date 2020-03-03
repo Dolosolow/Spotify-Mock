@@ -8,7 +8,7 @@ import './Trackpage.scss';
 class Trackpage extends Component {
   constructor(props) {
     super(props);
-    this.state = { showControls: true, progress: 0 };
+    this.state = { showControls: true };
   }
 
   toggleControls = () => {
@@ -18,21 +18,41 @@ class Trackpage extends Component {
   playPause = () => {
     this.props.handlePlayPause();
   }
-
+  // this is not "DRY" so refactor ⬇
   handleReplay = () => {
-    this.props.audio.currentTime = 0;
+    const { audio, history, match, playlist, trackSelect } = this.props;
+
+    if(audio.currentTime <= 3.5) {
+      let prevId = playlist.findIndex(track => track.id === Number(match.params.id));
+      let track = playlist[--prevId] || playlist[playlist.length - 1];
+      trackSelect(track);
+      history.push(`/track/${track.id}`);
+    } else {
+      audio.currentTime = 0;
+    }
   }
+
+  handleNextSong = () => {
+    const { history, match, playlist, trackSelect } = this.props;
+
+    let nextId = playlist.findIndex(track => track.id === Number(match.params.id));
+    let track = playlist[++nextId] || playlist[0];
+    trackSelect(track);
+    history.push(`/track/${track.id}`);
+  }
+  // // this is not "DRY" so refactor ⬆
 
   render() {
     const { history, match, vpm, playlist, isPlaying, audioData } = this.props;
     const show = this.state.showControls;
-    const track = playlist.find(track => track.id === Number(match.params.id));
+    let track = playlist.find(track => track.id === Number(match.params.id));
     let currentTime = audioData.currentTime;
     let duration = audioData.duration;
+    
     return (
       <div className={`Trackpage ${vpm && track.vpm ? "bg-vpm" : ""}`}>
           <div className={`Trackpage__nav ${!show ? 'hide' : ''}`}>
-              <span onClick={history.goBack} className='Trackpage__nav_btn'>
+              <span onClick={() => history.push('/collection/tracks')} className='Trackpage__nav_btn'>
                   <i className="fas fa-chevron-down"></i>
               </span>
               <span style={{ cursor: 'pointer' }} className='Trackpage__nav_options'>
@@ -85,7 +105,7 @@ class Trackpage extends Component {
                           className={`playpause__control fas fa-${isPlaying ? 'pause' : 'play'}`}>
                       </i>
                   </div>
-                  <i className="fas fa-step-forward"></i>
+                  <i className="fas fa-step-forward" onClick={this.handleNextSong}></i>
                   <i className="fas fa-redo" style={{fontSize: '16px'}}></i>
               </div>
   
