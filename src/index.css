@@ -20,3 +20,15 @@ body {
   color: var(--swhite);
   overflow: hidden;
 }
+
+@media only screen and (min-width: 500) {
+  html,
+  body {
+    width: 50%;
+    height: 50vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

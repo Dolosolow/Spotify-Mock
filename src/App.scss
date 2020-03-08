@@ -28,3 +28,10 @@
     }
   }
 }
+
+@media screen and (min-width: 500) {
+  .App {
+    width: 50%;
+    height: 50vh;
+  }
+}
